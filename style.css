@@ -1,0 +1,657 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
+}
+.logo {
+  height: 45px;
+  width: 5%;
+}
+.logo img {
+  height: 50px;
+}
+
+.search {
+  height: 45px;
+  width: 75%;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search i {
+  height: 25px;
+  width: 1%;
+  color: rgb(176, 172, 172);
+  font-size: 25px;
+  background-color: #f5f5f5;
+}
+.search input {
+  height: 20px;
+  width: 94%;
+  border: none;
+  font-size: 15px;
+  background-color: #f5f5f5;
+}
+
+.login {
+  height: 45px;
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login button {
+  height: 45px;
+  width: 60%;
+  border-radius: 10px;
+  background-color: #e32228;
+  border: none;
+}
+
+.login button a {
+  text-decoration: none;
+  color: white;
+}
+.login i {
+  width: 20%;
+  font-size: 20px;
+}
+
+.hero-section {
+  height: 700px;
+  width: 100%;
+  background-image: url(./images/landing-bg.jpg);
+  background-color: yellow;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section img {
+  height: 250px;
+  width: 21%;
+}
+.hero-section h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 35px;
+}
+.hero-section p {
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+.hero-section span {
+  margin-top: 10px;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.hero-section .btn1 {
+  height: 45px;
+  width: 45%;
+  background-color: #e32228;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+}
+.hero-section .btn1:hover {
+  background-color: red;
+}
+.hero-section .btn2 {
+  height: 45px;
+  width: 45%;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+}
+.hero-section .btn2:hover {
+  background-color: whitesmoke;
+  color: red;
+}
+.location {
+  height: 60px;
+  width: 100%;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-part {
+  height: 900px;
+  width: 100%;
+  background-color: #f1f1f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.first {
+  height: 250px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box1 {
+  height: 250px;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  background-color: #e32228;
+}
+.box1:hover {
+  background-color: #ba0c19;
+}
+.box2:hover {
+  background-color: #ba0c19;
+}
+.box3:hover {
+  background-color: #ba0c19;
+}
+
+.box1 h1 {
+  height: 40px;
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+}
+.box1:nth-child(2) h1 {
+  height: 70px;
+}
+
+.box1 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.second {
+  height: 250px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box2 {
+  height: 250px;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  background-color: #e32228;
+}
+
+.box2 h1 {
+  height: 40px;
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+}
+.box2:nth-child(2) h1 {
+  height: 70px;
+}
+
+.box2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.third {
+  height: 250px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box3 {
+  height: 250px;
+  width: 29%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+  background-color: #e32228;
+}
+
+.box3 h1 {
+  height: 40px;
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+}
+.box3:nth-child(1) h1 {
+  height: 70px;
+}
+.box3:nth-child(2) h1 {
+  height: 70px;
+}
+.box3 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.box4 {
+  height: 80px;
+  width: 100%;
+  background-color: #f1f1f3;
+  text-align: center;
+  color: rgb(76, 75, 75);
+}
+
+.work {
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+}
+.work h1 {
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.cash-carry-online {
+  height: 300px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  height: 300px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.text h1 {
+  height: 70px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.text p {
+  color: #717171;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.image {
+  height: 300px;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image img {
+  height: 60%;
+  width: 40%;
+  position: relative;
+  top: 70px;
+}
+
+.groceries {
+  height: 300px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.groceries img {
+  height: 90%;
+  width: 80%;
+  position: relative;
+  top: 20px;
+  right: 60px;
+}
+
+.Curbside {
+  height: 300px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.Curbside img {
+  height: 90%;
+  width: 60%;
+  position: relative;
+  top: 20px;
+}
+
+.Guaranty {
+  height: 300px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.Guaranty img {
+  height: 80%;
+  width: 75%;
+  position: relative;
+  top: 20px;
+  right: 60px;
+}
+
+.Guaranty h1 {
+  height: 70px;
+  width: 101%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.last-btn {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-btn button {
+  height: 70px;
+  width: 15%;
+  color: white;
+  font-size: 20px;
+  background-color: #e32228;
+  border: none;
+  border-radius: 10px;
+}
+
+.last-btn button:hover {
+  background-color: #ba0c19;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .part1 {
+  height: 60px;
+  width: 100%;
+  background-color: #160b08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part1-first {
+  height: 60px;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.part1-first a {
+  color: white;
+  text-decoration: none;
+}
+.part1-first a:hover {
+  color: green;
+}
+
+.footer .part2 {
+  height: 60px;
+  width: 100%;
+  background-color: #100806;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.part2-first {
+  height: 60px;
+  width: 26%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.part2-first p {
+  color: white;
+  text-decoration: none;
+}
+
+.part2-first a {
+  color: green;
+  text-decoration: none;
+}
+
+.part2-first a:hover {
+  color: rgb(33, 113, 33);
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 100px;
+    width: 100%;
+  }
+  .logo {
+    height: 45px;
+    width: 5%;
+  }
+  .logo img {
+    height: 50px;
+  }
+
+  .search {
+    height: 45px;
+    width: 65%;
+  }
+  .search i {
+    height: 25px;
+    width: 2;
+  }
+  .search input {
+    height: 20px;
+    width: 85%;
+  }
+
+  .login {
+    height: 45px;
+    width: 15%;
+  }
+
+  .login button {
+    height: 40px;
+    width: 80%;
+  }
+
+  .login i {
+    display: none;
+  }
+
+  .hero-section img {
+    width: 33%;
+  }
+
+  .hero-section span {
+    width: 40%;
+  }
+
+  .box-part {
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .first {
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .box1 {
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .box1 a br {
+    display: none;
+  }
+
+  .box2 a br {
+    display: none;
+  }
+  .box3 a br {
+    display: none;
+  }
+
+  .box1:nth-child(2) h1 {
+    height: 30px;
+  }
+
+  .second {
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .box2 {
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .box2:nth-child(2) h1 {
+    height: 30px;
+  }
+
+  .third {
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .box3 {
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .box3:nth-child(1) h1 {
+    height: 30px;
+  }
+  .box3:nth-child(2) h1 {
+    height: 30px;
+  }
+  .box4 {
+    height: 150px;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .work {
+    height: 100px;
+    width: 100%;
+  }
+  .cash-carry-online {
+    height: auto;
+    width: 100%;
+  }
+  .text {
+    height: 300px;
+    width: 50%;
+  }
+  .text h1 {
+    height: 100px;
+  }
+  .text p br {
+    display: none;
+  }
+  .groceries {
+    height: auto;
+    width: 100%;
+  }
+  .Curbside {
+    height: auto;
+    width: 100%;
+  }
+  .Guaranty {
+    height: auto;
+    width: 100%;
+  }
+  .last-btn button {
+    height: 70px;
+    width: 30%;
+  }
+  .footer {
+    height: auto;
+    width: 100%;
+  }
+  .footer .part1 {
+    height: 60px;
+    width: 100%;
+  }
+  .part1-first {
+    height: 60px;
+    width: 100%;
+  }
+
+  .footer .part2 {
+    height: 60px;
+    width: 100%;
+  }
+
+  .part2-first {
+    height: 60px;
+    width: 60%;
+  }
+}
